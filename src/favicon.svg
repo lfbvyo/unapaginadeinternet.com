@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <radialGradient id="purpleToBlueGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color: #D1AFFF; stop-opacity: 1" />
+      <stop offset="20%" style="stop-color: #B09CFF; stop-opacity: 1" />
+      <stop offset="40%" style="stop-color: #9C7FFF; stop-opacity: 1" />
+      <stop offset="60%" style="stop-color: #864DFF; stop-opacity: 1" />
+      <stop offset="80%" style="stop-color: #7415B3; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #3f98da; stop-opacity: 1" />
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="url(#purpleToBlueGradient)" />
+</svg>
