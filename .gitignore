@@ -14,6 +14,7 @@ dist/
 # deps
 node_modules/
 .wrangler
+.npm-cache/
 
 # env
 .env
@@ -35,4 +36,5 @@ lerna-debug.log*
 .parcel-cache/
 dist/
 node_modules/
-
+tmp/
+artifacts/
