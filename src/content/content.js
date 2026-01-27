@@ -8,7 +8,7 @@ export const masthead = {
   kicker: 'EDICIÓN PERPETUA | TIRAJE: 1 | CORRECCIONES: INF',
   meta: [
     { label: 'Edición', value: 'A' },
-    { label: 'Fecha', value: '2025-12-31' },
+    { label: 'Fecha', value: '2026-01-27' },
     { label: 'Número de acta', value: '0001' },
     { label: 'Tasa de revisión', value: '0.00 (sospechoso)' },
   ],
@@ -215,6 +215,12 @@ export const tariffs = [
     note: 'La neutralidad es un servicio, no un estado.',
   },
   {
+    concept: 'Pedir explicación',
+    rate: 0.36,
+    unit: 'tasa/solicitud',
+    note: 'La transparencia también se cobra.',
+  },
+  {
     concept: 'Nombrar “agencia”',
     rate: 0.27,
     unit: 'fricción/mención',
@@ -383,6 +389,10 @@ export const changelog = [
   {
     date: '2026-01-18',
     entry: 'Las notas al margen ganan autoridad; el margen empieza a mandar.',
+  },
+  {
+    date: '2026-01-27',
+    entry: 'Se tarifa pedir explicación; la transparencia también se cobra.',
   },
   {
     date: '2026-02-03',

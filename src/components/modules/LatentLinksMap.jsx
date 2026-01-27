@@ -70,10 +70,10 @@ export default function LatentLinksMap() {
             >
               <div className="font-serif text-ink leading-snug">{c.title}</div>
               <div className="mt-3 flex items-end justify-between gap-3">
-                <div className="t-audit text-muted nums-tabular">
+                <div className="t-audit text-muted nums-tabular min-w-0">
                   {moduleMeta.latentUI.stabilityAbbrev} {c.stability.toFixed(2)}
                 </div>
-                <div className="t-audit nums-tabular">
+                <div className="t-audit nums-tabular min-w-0 text-right">
                   <span className="text-accent">{c.cost.toFixed(2)}</span>{' '}
                   <span className="text-muted">{c.unit}</span>
                 </div>

@@ -145,9 +145,17 @@
     transition: letter-spacing 420ms ease;
     line-height: 1.35;
     font-size: 11px;
+    min-width: 0;
+  }
+  .t-audit.nums-tabular,
+  .t-audit .nums-tabular {
+    letter-spacing: calc(0.03em + var(--kern, 0em));
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
   .nums-tabular {
     font-variant-numeric: tabular-nums lining-nums;
+    font-feature-settings: 'tnum' 1, 'lnum' 1;
   }
   .nums-prose {
     font-variant-numeric: oldstyle-nums proportional-nums;
